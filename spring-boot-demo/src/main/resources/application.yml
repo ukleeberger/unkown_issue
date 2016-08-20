@@ -1,0 +1,9 @@
+server:
+  tomcat:
+    accesslog:
+      directory: /home/uli
+      enabled: true
+      
+spring:
+  application:
+    name: config-demo-client

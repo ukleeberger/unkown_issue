@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: configserver
+
+spring.cloud.config.server.git.uri: file://${user.home}/git/config-repo
